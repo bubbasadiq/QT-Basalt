@@ -1,0 +1,31 @@
+# Structural Reinforcement Fiber
+# Target application: composite materials, civil infrastructure
+# Key performance: high tensile strength, stiffness uniformity
+
+name: structural
+fiber_class: structural
+description: >
+  High-strength basalt fiber optimised for structural composite applications.
+  Targets tensile strength competitive with E-glass at significantly lower cost.
+
+# Target material properties
+target_tensile_gpa: 2.9
+target_modulus_gpa: 85.0
+target_diameter_um: 13.0
+target_thermal_c:   650.0
+
+# Tolerance bands (±)
+tol_tensile_gpa:   0.15
+tol_modulus_gpa:   3.0
+tol_diameter_um:   1.5
+tol_thermal_c:     25.0
+
+# Initial production parameters
+initial_temp_c:       1480.0
+initial_draw_speed_ms: 12.0
+initial_airflow_lpm:   48.0
+
+# Hard limits
+max_temp_c:        1560.0
+min_temp_c:        1420.0
+max_draw_speed_ms: 18.0

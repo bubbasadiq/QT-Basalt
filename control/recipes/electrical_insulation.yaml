@@ -1,0 +1,27 @@
+# Electrical Insulation Fiber
+# Target application: telecommunications, power electronics
+# Key performance: high dielectric strength, low loss
+
+name: electrical_insulation
+fiber_class: electrical_insulation
+description: >
+  Basalt fiber engineered for dielectric performance in telecom
+  structural components and power electronics applications.
+
+target_tensile_gpa: 2.6
+target_modulus_gpa: 80.0
+target_diameter_um: 10.0
+target_thermal_c:   620.0
+
+tol_tensile_gpa:   0.2
+tol_modulus_gpa:   4.0
+tol_diameter_um:   1.0
+tol_thermal_c:     30.0
+
+initial_temp_c:       1460.0
+initial_draw_speed_ms: 14.0
+initial_airflow_lpm:   55.0
+
+max_temp_c:        1520.0
+min_temp_c:        1400.0
+max_draw_speed_ms: 20.0

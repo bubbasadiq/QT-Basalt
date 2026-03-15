@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.env
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# uv
+.uv/
+uv.lock
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ML / training artifacts
+models/training/datasets/*.parquet
+models/training/datasets/*.csv
+models/training/experiments/mlruns/
+*.pt
+*.pth
+*.onnx
+*.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Rust
+target/
+Cargo.lock
+
+# Docker
+.docker/
+
+# Secrets — never commit these
+.env.local
+.env.production
+secrets/
+*.key
+*.pem
+*.cert
+
+# Logs
+logs/
+*.log
+
+# Data exports — keep schema, not raw data
+data-pipeline/export/raw/
+data-pipeline/export/runs/
+
+# Infrastructure secrets
+infrastructure/edge/*.tfvars
+infrastructure/cloud/*.tfvars
