@@ -1,0 +1,28 @@
+# Precision Structural Fiber
+# Target application: robotics, advanced composites
+# Key performance: stiffness-to-weight optimisation, tight diameter tolerance
+
+name: precision_structural
+fiber_class: precision_structural
+description: >
+  High-precision basalt fiber for robotics and advanced composite
+  applications requiring tight dimensional tolerance and optimised
+  stiffness-to-weight ratio.
+
+target_tensile_gpa: 3.1
+target_modulus_gpa: 90.0
+target_diameter_um: 9.0
+target_thermal_c:   660.0
+
+tol_tensile_gpa:   0.1
+tol_modulus_gpa:   2.5
+tol_diameter_um:   0.8
+tol_thermal_c:     25.0
+
+initial_temp_c:       1500.0
+initial_draw_speed_ms: 16.0
+initial_airflow_lpm:   60.0
+
+max_temp_c:        1570.0
+min_temp_c:        1440.0
+max_draw_speed_ms: 22.0
